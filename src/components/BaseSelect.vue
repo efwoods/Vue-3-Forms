@@ -8,23 +8,23 @@
                 option
         }}</option>
     </select>
-</template>  
+</template>
 
-    <script>
-        export default {
-    props: {
-        label: {
-            type: String,
-            default: ''
-        },
-        modelValue: {
-            type: [String, Number],
-            default: ''
-        },
-        options: {
-            type: Array,
-            required: true
-        }
+<script>
+export default {
+  props: {
+    label: {
+      type: String,
+      default: ''
+    },
+    modelValue: {
+      type: [String, Number],
+      default: ''
+    },
+    options: {
+      type: Array,
+      required: true
     }
-}    
-    </script>
+  }
+}
+</script>
